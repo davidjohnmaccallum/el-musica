@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  div.d-flex.flex-column
+  div.d-flex.flex-column.mx-auto(style="max-width: 500px")
     h1.my-3.w-50.text-white.text-center(style="background-color: #333") Home
     div.w-100(style="background-image: url('https://picsum.photos/id/1070/600/600'); background-size: cover; background-position: center; height: 300px")
     div.d-flex.flex-row.mt-3.justify-content-between
@@ -28,7 +28,7 @@ block content
         div(style="font-size: 80%") Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ipsam dolores? Culpa aliquam minima aliquid ratione suscipit magni expedita fugiat voluptates vero libero doloremque voluptate doloribus, autem cum ipsa harum!
       div.d-flex.flex-column.w-50.justify-content-center.mr-1
         div(style="background-image: url('https://picsum.photos/id/1071/300/300'); background-size: cover; background-position: center; height: 150px")
-    div.d-flex.flex-row.pb-2.pt-3.w-100.justify-content-between(style="position: fixed; bottom: 0; background-color: #333; color: white")
+    div.d-flex.flex-row.pb-2.pt-3.w-100.justify-content-between.mx-auto(style="max-width: 500px; position: fixed; bottom: 0; background-color: #333; color: white")
       div.d-flex.flex-column.align-items-center(style="width: 70px")
         img.mb-1(src="/images/half-diamond.svg" height=32 width=32)
         div(style="font-size: 80%") Home
